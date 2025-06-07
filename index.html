@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wrecky Ball</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="game"></canvas>
+  <div id="hud">
+    <div id="score">Score: 0</div>
+    <div id="hp">Orb HP: 100</div>
+    <div id="specials">Specials: 3</div>
+  </div>
+  <div id="gameOverScreen">
+    <div>You Died</div>
+    <div id="finalScore"></div>
+    <button onclick="startGame()">Restart</button>
+  </div>
+  <div id="mobileControls">
+    <button id="specialButton">Special</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
