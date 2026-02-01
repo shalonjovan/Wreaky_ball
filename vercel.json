@@ -1,3 +1,4 @@
 {
+  "outputDirectory": ".",
   "buildCommand": "echo 'const SUPABASE_URL = \"'$SUPABASE_URL'\";' > config.js && echo 'const SUPABASE_ANON_KEY = \"'$SUPABASE_ANON_KEY'\";' >> config.js && echo 'window.supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);' >> config.js"
 }
